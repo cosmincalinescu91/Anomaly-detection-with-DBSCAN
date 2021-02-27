@@ -18,4 +18,4 @@ In the end, epsilon will be calculated with median function which takes as param
 
 ![image](https://user-images.githubusercontent.com/22441947/109378443-45d9ba80-78db-11eb-82fc-3bd138a3d88e.png)
 
-Further work: Try to find other ways to find the optimal value for epsilon parameter. (elbow, SVM)
+Further work: Try to find other ways to find the optimal value for epsilon parameter. (elbow approach, SVM)
