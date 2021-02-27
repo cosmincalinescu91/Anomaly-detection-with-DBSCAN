@@ -1,6 +1,6 @@
 # Anomaly-detection-with-DBSCAN
 
-This is an algorithm inspired from DBScan algorithm but adapted analyse the data in order, one by one, because the DBScan starts randomly.
+This is a simple algorithm inspired from DBScan algorithm but adapted analyse the data in order, one by one, because the DBScan starts randomly.
 
 The used datasets are some Yahoo public datasets which contains the information about Yahoo servers at a given time. For example, during the night, servers are less loaded because there might be no users active, but during the day servers might be very loaded because users are active.
 
