@@ -1,13 +1,13 @@
 # Anomaly-detection-with-DBSCAN
 
-This is a simple algorithm inspired from DBScan algorithm but adapted analyse the data in order, one by one, because the DBScan starts randomly.
+This is a simple algorithm inspired from DBScan algorithm but adapted to analyse the data in order, one by one, because the DBScan starts randomly.
 
-The used datasets are some Yahoo public datasets which contains the information about Yahoo servers at a given time. For example, during the night, servers are less loaded because there might be no users active, but during the day servers might be very loaded because users are active.
+The used datasets are some Yahoo public datasets which contains the information about Yahoo servers at a given time. For example, during the night, the servers are less loaded because there might be no users active, but during the day the servers might be very loaded because users are active.
 
-The main goal is prevent and identify the anomaly from the systems. 
+The main goal is to prevent and identify the anomaly from the systems. 
 
 The algorithm receives three parameters: the dataset that need to be train, epsilon and minPts. 
-The minPts is used in this example with 1 as value because there is a single dimension and the algorithm is going from point to point and measure the distance between their values.
+The minPts is used in this example with value 1 because there is a single dimension and the algorithm is going from point to point and measure the distance between their values.
 The most important parameter is epsilon, because it is the threshold required by the algorithm to create a new cluster or keep the current one when the algorithm measure the Euclidean distance between two successive points.
 There is an online learning because when the algorithm trains the data, he is able to identify which points are anomaly, in the same time, so it knows how to work with random data.
 
