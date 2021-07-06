@@ -1,4 +1,4 @@
-# Anomaly-detection-with-DBSCAN
+# Anomaly Detection - DBSCAN
 
 This is a simple algorithm inspired from DBSCAN algorithm but adapted to analyse the data in order, one by one, because the DBSCAN use to randomly select the data.
 
